@@ -29,7 +29,8 @@
     "avahi_hostname": "",
     "avahi_domainname": "local",
     "airplay_name": "Hass.io",
-    "enable_ipv6": false
+    "enable_ipv6": false,
+    "buffer": "int"
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
@@ -37,7 +38,8 @@
     "avahi_hostname": "str",
     "avahi_domainname": "str",
     "airplay_name": "str",
-    "enable_ipv6": "bool"
+    "enable_ipv6": "bool",
+    "buffer": "int"
   },
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
